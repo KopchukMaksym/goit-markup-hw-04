@@ -74,6 +74,7 @@ body {
 /* HEADER */
 .header {
   padding: 32px 215px;
+  border: 1px solid #ECECEC
 }
 
 .nav-container {
@@ -439,6 +440,8 @@ padding: 94px 0;
 
 .portfolio-title-descr {
   padding: 20px 0 20px 24px;
+
+  border: 1px solid #EEEEEE;
 }
 
 .portfolio-title {
