@@ -107,9 +107,6 @@ body {
   align-items: center;
 }
 
-.nav-element {
-}
-
 .nav-element:not(:last-child) {
   margin-right: 50px;
 }
