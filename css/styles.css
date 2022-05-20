@@ -15,11 +15,6 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inhterit;
-}
 
 /* Body */
 body {
@@ -35,9 +30,9 @@ body {
 
 /* Class .container  */
 .container {
-  width: 1210px;
+  width: 1200px;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 15px;
 }
 
 /* Class .list  */
@@ -73,8 +68,7 @@ body {
 
 /* HEADER */
 .header {
-  padding: 32px 215px;
-  border: 1px solid #ECECEC
+  border-bottom: 1px solid #ECECEC
 }
 
 .nav-container {
@@ -113,11 +107,16 @@ body {
   align-items: center;
 }
 
+.nav-element {
+}
+
 .nav-element:not(:last-child) {
   margin-right: 50px;
 }
 
 .nav-link {
+  display: block;
+  padding: 32px 0;
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -180,7 +179,7 @@ body {
 }
 
 .hero-title {
-  width: 696px;
+  max-width: 696px;
   margin: 0 auto 30px;
 
   color: var(--primary-white-color);
@@ -286,11 +285,6 @@ body {
   margin-right: 0;
 }
 
-.services-img {
-  width: 370px;
-  height: 294px;
-}
-
 /* Team */
 
 .team-section {
@@ -311,13 +305,8 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-img {
-  width: 270px;
-  height: 260px;
-}
-
 .card-title {
-  padding: 30px 0;
+  padding: 30px 10px;
   text-align: center;
 }
 
@@ -363,10 +352,9 @@ body {
 }
 
 .logo-footer {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   margin-right: 0;
-  width: fit-content;
 }
 .address-item {
   margin-bottom: 9px;
@@ -386,10 +374,6 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 
-}
-
-.contacts-item {
-  padding-bottom: 9px;
 }
 
 .footer .contacts-link {
@@ -433,15 +417,11 @@ padding: 94px 0;
   margin-bottom: 0;
 }
 
-.portfilio-img {
-  width: 370px;
-  height: 294px;
-}
-
 .portfolio-title-descr {
-  padding: 20px 0 20px 24px;
+  padding:20px 24px;
 
   border: 1px solid #EEEEEE;
+  border-top: 0;
 }
 
 .portfolio-title {
@@ -484,7 +464,6 @@ margin-right: 8px;
   color: var(--title-text-color);
   background-color: var(--grey-ultra-light);
   border: 0;
-  Fill: Solid;
 
   font-family: inherit;
   font-weight: 500;
