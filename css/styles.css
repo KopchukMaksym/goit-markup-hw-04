@@ -19,6 +19,7 @@ html {
 /* Body */
 body {
   margin: 0;
+
   background-color: var(--primary-bg-color);
   color: var(--primary-text-color);
 
@@ -85,9 +86,9 @@ body {
 /* Logo */
 
 .logo {
-  color: var(--title-text-color);
-
   margin-right: 93px;
+
+  color: var(--title-text-color);
 
   font-family: Raleway;
   font-size: 26px;
@@ -114,6 +115,7 @@ body {
 .nav-link {
   display: block;
   padding: 32px 0;
+
   color: var(--title-text-color);
 
   font-weight: 500;
@@ -137,7 +139,7 @@ body {
   align-items: center;
 }
 
-.contacts-item {
+.contacts-item:not(:last-child){
   margin-right: 50px;
 }
 
@@ -158,9 +160,9 @@ body {
 
 /* Hero */
 .hero {
-  background-color: var(--background-color);
-  
   padding: 200px 0;
+
+  background-color: var(--background-color);
 
 }
 
@@ -190,21 +192,20 @@ body {
 }
 
 .button {
-
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  padding: 10px 32px;
-  min-width: 200px;
-
   display: flex;
   align-items: center;
+  padding: 10px 32px;
+  min-width: 200px;
   border: 0;
   border-radius: 4px;
   margin: 0 auto;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
-
   text-align: center;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -251,6 +252,7 @@ body {
 
 .feature-subtitle {
   margin: 0;
+
   color: var(--grey);
 
   line-height: 1.71;
@@ -264,8 +266,9 @@ body {
 }
 
 .section-title {
-  text-align: center;
   margin: 0 0 50px;
+  
+  text-align: center;
 }
 
 .services-list {
@@ -297,24 +300,26 @@ body {
 
 .team-card {
   margin: 0 30px 0 0;
+
   background-color:var(--primary-white-color) ;
+
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
 
 .card-title {
   padding: 30px 10px;
+
   text-align: center;
 }
 
 .team-title {
+  margin: 0 0 10px 0;
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-
-  margin: 0 0 10px 0;
 }
 
 
@@ -339,6 +344,7 @@ body {
 
 .footer {
   padding: 60px 0;
+
   background-color: var(--background-color)
 }
 
@@ -397,7 +403,6 @@ padding: 94px 0;
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  /* text-align: center; */
 }
 
 
@@ -423,6 +428,7 @@ padding: 94px 0;
 
 .portfolio-title {
   margin: 0 0 4px;
+
   color: var(--title-text-color);
 
   font-size: 18px;
@@ -432,6 +438,7 @@ padding: 94px 0;
 
 .description {
   margin: 0;
+
   color: var(--grey);
 
   font-size: 16px;
