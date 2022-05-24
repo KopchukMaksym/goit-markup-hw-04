@@ -644,8 +644,10 @@ margin-right: 8px;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+  border-radius: 4px;
 
   cursor: pointer;
+
 }
 
 
